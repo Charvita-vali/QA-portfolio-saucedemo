@@ -10,19 +10,23 @@ A self-directed manual QA testing project built to practice real-world test desi
 - Build a portfolio artifact demonstrating QA fundamentals for junior QA / SDET roles
 
 ## 🗂️ Repo Structure
+## 🗂️ Repository Structure
 
-```
+```text
 qa-portfolio-saucedemo/
 ├── README.md
-├── test-plan.md                          # Scope, environment, approach
+├── requirements/
+│   └── requirements.md
+├── RTM.md
+├── test-plan.md
+├── test-summary-report.md
 ├── test-cases/
-│   ├── login-test-cases.md               # 7 test cases
-│   └── cart-checkout-test-cases.md       # 18 test cases
+│   ├── login-test-cases.md
+│   └── cart-checkout-test-cases.md
 ├── bug-reports/
-│   ├── BUG-001-dog-image.md              # Medium severity, High priority
-│   └── BUG-002-checkout-blocker.md       # Critical severity, Critical priority
+│   ├── BUG-001-dog-image.md
+│   └── BUG-002-checkout-blocker.md
 └── screenshots/
-    └── (evidence for each bug report)
 ```
 
 ## 🐞 Summary of Findings
@@ -76,15 +80,18 @@ qa-portfolio-saucedemo/
 - Basic Security Testing (SQL Injection & XSS Awareness)
 - Bug Reporting
 - Severity & Priority Assessment
+- Requirement Traceability Matrix (RTM)
 - Git & GitHub Documentation
 
 ## 🏆 Key Achievements
 
-- Designed and executed 25 manual test cases across Login, Cart, and Checkout modules.
-- Performed exploratory testing beyond scripted scenarios.
-- Identified and documented 2 reproducible defects with supporting evidence.
-- Created professional bug reports including severity, priority, and reproduction steps.
-- Organized project artifacts into a structured GitHub repository.
+- Created a structured Test Plan defining project scope, testing approach, and environment.
+- Designed 25 manual test cases covering Login, Cart, and Checkout modules.
+- Executed all planned test cases and recorded execution results.
+- Performed exploratory testing using the `problem_user` account and identified two reproducible defects.
+- Created professional bug reports including severity, priority, reproduction steps, and screenshots.
+- Developed a Requirement Traceability Matrix (RTM) to map functional requirements to test cases.
+- Published all project artifacts in a well-structured GitHub repository.
 
 ## 📊 Project Metrics
 
@@ -96,15 +103,14 @@ qa-portfolio-saucedemo/
 | Test Cases Passed | 25/25 (100%)
 | Exploratory Bugs Found | 2 |
 | Bug Reports Created | 2 |
+| Requirements Covered | 100% |
 | Test Environment | Chrome (Desktop) |
 
-## 🚀 Future Enhancements
+## 🔗 Related QA Portfolio Projects
 
-- Automate critical user flows using Selenium WebDriver
-- Perform REST API testing using Postman
-- Validate backend data using SQL
-- Implement Cross-Browser Testing
-- Integrate automated regression testing using Jenkins
+- **Manual Testing – SauceDemo** (Current Repository)
+- **REST API Testing – JSONPlaceholder (Python + Pytest + Requests)**
+- **SQL Database Testing** *(Coming Soon)*
 
 ---
 > **Note:** This repository is a personal QA portfolio project created for learning and demonstrating manual testing skills. SauceDemo is a publicly available demo application provided by Sauce Labs for testing practice. This project is not affiliated with or endorsed by Sauce Labs.
