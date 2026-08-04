@@ -33,3 +33,44 @@ All products display the same incorrect image (a photo of a dog) regardless of t
 
 ## Additional Notes
 Bug does not reproduce with `standard_user`, confirming this is specific to `problem_user`'s test data/mock configuration rather than an application-wide regression.
+
+---
+
+## Reproducibility
+
+**Always (5/5)**
+
+The issue was reproduced consistently on every attempt during testing.
+
+---
+
+## Environment
+
+- **Application:** SauceDemo
+- **Browser:** Google Chrome
+- **Platform:** Desktop
+- **Affected User:** `problem_user`
+
+---
+
+## Root Cause
+
+**Unknown**
+
+Developer investigation required.
+
+---
+
+## Retest Status
+
+**Not Retested**
+
+The defect has not been retested because this is a public demo application and no code fix has been released.
+
+---
+
+## Regression Testing
+
+**Not Performed**
+
+Regression testing will be performed after the defect is fixed.
