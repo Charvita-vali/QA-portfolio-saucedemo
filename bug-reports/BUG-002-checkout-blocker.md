@@ -35,3 +35,42 @@ The Last Name field does not accept keyboard input — text cannot be entered. C
 
 ## Additional Notes
 This confirms `problem_user` is intentionally seeded with a checkout-blocking defect, likely designed for QA training purposes. Confirmed this does **not** reproduce with `standard_user`, isolating it as user-account-specific rather than an application-wide regression.
+
+---
+
+## Reproducibility
+
+**Always (5/5)**
+
+The issue was reproduced consistently on every attempt during testing.
+
+---
+
+## Environment
+
+- Application: SauceDemo
+- Browser: Google Chrome
+- Platform: Desktop
+- Test User: `problem_user`
+
+---
+
+## Root Cause
+
+Unknown.
+
+Developer investigation required.
+
+---
+
+## Retest Status
+
+Not Retested
+
+---
+
+## Regression Testing
+
+Not Performed
+
+Regression testing will be performed after the defect is fixed.
